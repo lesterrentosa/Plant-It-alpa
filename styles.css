@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.search{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container.page1{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.search__field{
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 7px;
+  outline: none;
+  order: none;
+  box-shadow: 5px 5px 10px rgba(0,0, 0, 0.2);
+  border: none;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  height: 40px;
+}
+
+.search_btn{
+  margin-left: 7px;
+  width: 85px;
+  height: 30px;
+  background-color: rgb(5, 101, 5);
+  color: white;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search_btn:hover{
+  background-color: rgb(22, 125, 22);
+}
+
+.search_btn:active{
+  opacity: 0.6;
+}
+
+.plant__img {
+  height: 150px;
+  width: 150px;
+}
+
+.single--plant {
+  border: 1px solid gold;
+}
+
+
+.plants{
+  margin-top: 40px;
+}
+
+
+
+.image-container{
+ display: inline-block;
+}
+
+.content-container{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.plant-pic{
+  width:200px;
+  display: inline-block;
+}
+
+.plant-name{
+  vertical-align: top;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.sci-name{
+  vertical-align: top;
+  font-size: 18px;
+  font-family: Roboto;
+  margin-left: 10px;
+}
+
+.details{
+  margin-left: 10px;
+  color: green;
+  font-size: 14px;
+  font-family: Roboto;
+  cursor: pointer;
+}
+
+.details:active{
+  opacity: 0.5;
+}
+
+.plant-container{
+  margin-top: 20px;
+}
+
+
+/* ================================ ETo para sa kada section/ gawin lang display: none ==============================*/
+.search-field{ /*pag magsearch*/
+  display: none;
+}
+
+.selected-plant{ /*pag click sa plant*/
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(233, 249, 233);
+  display: none;
+}
+
+.bookmark-container{ /*pang bookmark*/
+  margin-top: 20px;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: rgb(219, 230, 219);
+  
+}
+
+
+/* ========================================================================================*/
+
+.selected-plant, p{
+  font-family: Roboto;
+  margin-bottom: 4px;
+}
+
+.selected-plant-img{
+  width: 400px;
+}
+
+.selected-plant-img-container{
+  margin-top: 10px;
+}
+
+.selected-plant-name{
+  font-weight: bold;
+  font-size: 30px;
+ 
+}
+.selected-plant-sci-name{
+  font-style: italic;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+/*Cycle*/
+.cycle{
+  text-align: center;
+}
+.cycle-img-container{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cycle-content-container{
+  display: inline-block;
+}
+
+.selected-plant-cycle{
+  font-weight: bold;
+}
+
+.back{
+  text-align: left;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.back:hover{
+  color: green;
+}
+
+.back:active{
+  opacity: 0.6;
+}
+
+.cycle-img{
+  width: 100px;
+
+}
+
+.bookmark-img{
+  width: 50px;
+  padding-top: 10px;
+  margin-left: 300px;
+  vertical-align: middle;
+}
+.bookmark{
+  display: inline-block;
+  text-align: right;
+ 
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.bookmark:hover{
+  font-weight: bold;
+}
+
+.bookmark:active{
+  opacity: 0.5;
+}
+
+/* BOOKMARKS */
+
+.bookmark-header{
+  font-family: Roboto;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bookmarks-container{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.bookmarks-image-container{
+  display: inline-block;
+}
+
+.bookmarks-plant-pic{
+  width:200px;
+  display: inline-block;
+}
+
+.bookmarks-content-container{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bookmarks-plant-name{
+  vertical-align: top;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.bookmarks-sci-name{
+  vertical-align: top;
+  font-size: 18px;
+  font-family: Roboto;
+  margin-left: 10px;
+}
+
+.bookmarks-details{
+  margin-left: 10px;
+  color: green;
+  font-size: 14px;
+  font-family: Roboto;
+  cursor: pointer;
+}
+
+.bookmarks-remove{
+  margin-top: 60px;
+  margin-left: 10px;
+  color: rgb(238, 8, 8);
+  font-size: 14px;
+  font-family: Roboto;
+  cursor: pointer;
+}
+
+.bookmark-back{
+  text-align: left;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.bookmark-back:hover{
+  color: green;
+}
+
+.bookmark-back:active{
+  opacity: 0.6;
+}
+
+.bookmarks-remove:active{
+  opacity: 0.5;
+}
+
+
+
+
