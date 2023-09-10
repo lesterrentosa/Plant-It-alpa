@@ -114,7 +114,7 @@
 
 /* ================================ ETo para sa kada section/ gawin lang display: none ==============================*/
 .search-field{ /*pag magsearch*/
-  display: none;
+  
 }
 
 .selected-plant{ /*pag click sa plant*/
@@ -123,15 +123,25 @@
   margin-top: 20px;
   text-align: center;
   background-color: rgb(233, 249, 233);
-  display: none;
+  
 }
 
 .bookmark-container{ /*pang bookmark*/
   margin-top: 20px;
-  width: 700px;
+  width: 600px;
   margin: 0 auto;
   margin-top: 40px;
-  background-color: rgb(219, 230, 219);
+  background-color: rgb(233, 249, 233);
+  
+  
+}
+
+.care-guide{ /*care guide*/
+  margin-top: 20px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: rgb(233, 249, 233);
   
 }
 
@@ -223,6 +233,22 @@
   opacity: 0.5;
 }
 
+.guides{
+  font-weight: bold;
+  cursor: pointer;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: rgb(25, 192, 25);
+}
+
+.guides:hover{
+  color: green;
+}
+
+.guides:active{
+  opacity: 0.5;
+}
+
 /* BOOKMARKS */
 
 .bookmark-header{
@@ -304,6 +330,60 @@
 .bookmarks-remove:active{
   opacity: 0.5;
 }
+
+/* care guide*/
+.care-back{
+  text-align: left;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.care-back:hover{
+  color: green;
+}
+
+.care-back:active{
+  opacity: 0.6;
+}
+
+.guide{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.care-pic{
+  width: 400px;
+  justify-content: center;
+}
+
+.care-common-name{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.care-sci-name{
+  text-align: center;
+  font-style: italic;
+}
+.care-watering{
+  text-align: center;
+}
+.care-sunlight{
+  text-align: center;
+}
+.care-pruning{
+  text-align: center;
+}
+.care-fruit{
+  text-align: center;
+}
+
+
 
 
 
